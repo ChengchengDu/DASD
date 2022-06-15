@@ -1,0 +1,22 @@
+python summary_squad_utils.py \
+--data_dir /home/jazhan/data/PrekshaNema25/nema/ \
+--save_path /home/jazhan/data/PrekshaNema25/ \
+--data_type test \
+--candidate_target_dir /home/jazhan/data/PrekshaNema25/val_target/ \
+--ie_dir /home/jazhan/data/PrekshaNema25/nema_ie/val/target/ \
+--mapping_dir /home/jazhan/data/PrekshaNema25/ \
+--dataset_type train \
+--data_path /home/jazhan/code/QaExsuBart/data/dealed_data_span/data_raw/cnndm/ \
+--target_ie_path /home/jazhan/code/QaExsuBart/data/dealed_data_span/target_ie/cnndm_target_ie/ \
+--candidate_ie_path /home/jazhan/code/QaExsuBart/data/dealed_data_span/candidate_ie_span/cnndm_candidate_ie/ \
+--data_name cnndm \
+--n_cpu 40 \
+--save_json_path /home/jazhan/code/query_based_summarization/data_utils/dealed_data/cnndm/ \
+--source_nema_path /home/jazhan/data/PrekshaNema25/val_source/ \
+--target_nema_ie_path /home/jazhan/data/PrekshaNema25/nema_ie/val/target/ \
+--query_nema_path /home/jazhan/data/PrekshaNema25/val_query/ \
+--target_nema_path /home/jazhan/data/PrekshaNema25/val_target/ \
+--source_nema_ie_path /home/jazhan/data/PrekshaNema25/nema_ie/val/source/ \
+--corpus_nema_type val \
+--save_nema_json_path /home/jazhan/data/PrekshaNema25/ \
+
