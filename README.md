@@ -49,3 +49,9 @@ bash train_one_cnndm.sh
 ```
 
 注：所有shell脚本的具体路径需要自行设定
+## 解码
+需要将run_cnn_eval.sh中具体的模型和路径替换成自己的路径。
+```
+cd DASD/train_utils
+bash run_cnndm_eval.sh
+```
