@@ -47,3 +47,5 @@ cd DASD/train_utils
 bash run_cnndm_eval.sh
 bash train_one_cnndm.sh
 ```
+
+注：所有shell脚本的具体路径需要自行设定
