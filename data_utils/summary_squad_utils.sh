@@ -1,5 +1,5 @@
 python summary_squad_utils.py \
---data_dir /home/jazhan/data/PrekshaNema25/nema/ \
+--data_dir $data_path$ \
 --save_path /home/jazhan/data/PrekshaNema25/ \
 --data_type test \
 --candidate_target_dir /home/jazhan/data/PrekshaNema25/val_target/ \

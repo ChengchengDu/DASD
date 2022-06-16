@@ -1112,18 +1112,12 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    # write_source_to_path(args)
+    write_source_to_path(args)
 
-    # write_ggw_source_to_path(args)
+    stanford_openie(args)
 
-    # stanford_openie(args)
-
-    # stanford_openie_ggw(args)
-
-    # format_to_json(args)
-    nema2squad(args)
-
-    # write_lead3_to_path(args.save_dir, args.source_dir)
+    format_to_json(args)
+    # nema2squad(args)
 
     # get_test_query(args.test_ie_path, args.test_candidate_path, args.test_save_path)
 
