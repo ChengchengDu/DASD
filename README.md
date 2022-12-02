@@ -2,6 +2,7 @@
 the code for paper "Domain Adaption and Summary Distillation for Unsupervised Query Focused Summarization"
 ## 1. 自动化数据构建流程
 使用CNN/DailyMail数据进行改造，得到QFS数据集 query-CNNDM。
+query-CNNDM数据集获取：链接: https://pan.baidu.com/s/1tkTHOQliFHSQbV_CJiDA6Q?pwd=qcnn 提取码: qcnn
 具体流程：
 1）针对目标摘要的每一句话，使用斯坦福openie抽取工具抽取实体和三元组。
 2）针对每一条的openie data进行过滤和去重。 
